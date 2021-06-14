@@ -22,12 +22,12 @@ $result = mysqli_query($connection, $sql);
 
 // Der User wird bei einem erfolgreichen Prozess auf
 // die später noch erstellte Seite dashboard.php geschickt
-header("Location: ../dashboard.php");
+header("Location: ../dashboard.html");
 exit();
 
 } else {
 // Falls jemand die URL erraten hat, wird er durch
 // das else zum Registrierungsformular geschickt
-header("Location: ../signup.php");
+header("Location: ../signup.html");
 exit();
 }
